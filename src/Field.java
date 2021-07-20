@@ -23,8 +23,8 @@ public class Field {
      * Prints the current state of the field in the console with row and column numeration
      */
     public void showField(){
-
         System.out.println();
+        System.out.println("Current Status of Board:");
         System.out.print('\t');
           for(int i=0; i<size; i++) {
                     System.out.print("\u001B[36m" + i);
